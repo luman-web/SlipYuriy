@@ -1,0 +1,154 @@
+[
+  {
+    "filePath": "components/u-Parent/index.json",
+    "savePath": "components/-N1iQ2lf65gErv6Vz40d"
+  },
+  {
+    "filePath": "components/u-Parent/compoenentCode.vue",
+    "savePath": "components/-N1iQ2lf65gErv6Vz40d/code"
+  },
+  {
+    "filePath": "components/u-Child/index.json",
+    "savePath": "components/-N1iQBWznof0Aq2fwEq3"
+  },
+  {
+    "filePath": "components/u-Child/compoenentCode.vue",
+    "savePath": "components/-N1iQBWznof0Aq2fwEq3/code"
+  },
+  {
+    "filePath": "components/u-Child2/index.json",
+    "savePath": "components/-N1maiTdvizI7-nyk6h8"
+  },
+  {
+    "filePath": "components/u-Child2/compoenentCode.vue",
+    "savePath": "components/-N1maiTdvizI7-nyk6h8/code"
+  },
+  {
+    "filePath": "components/u-Comp1/index.json",
+    "savePath": "components/-N3zSzUvwgqLmhYiVoT-"
+  },
+  {
+    "filePath": "components/u-Comp1/compoenentCode.vue",
+    "savePath": "components/-N3zSzUvwgqLmhYiVoT-/code"
+  },
+  {
+    "filePath": "components/u-Comp1/compoenentSchema.json",
+    "savePath": "components/-N3zSzUvwgqLmhYiVoT-/schema",
+    "operation": "set"
+  },
+  {
+    "filePath": "customCode/html/test 1.html",
+    "savePath": "customCode/html/-N3JP6XzQXI74a4Cajn0/code",
+    "customCodeName": "test 1"
+  },
+  {
+    "filePath": "customCode/html/test 2.html",
+    "savePath": "customCode/html/-N3JP9UYkpjT6M4tYC5Q/code",
+    "customCodeName": "test 2"
+  },
+  {
+    "filePath": "tables/pages.json",
+    "savePath": "models/pages",
+    "isModel": true,
+    "modelKey": "pages"
+  },
+  {
+    "filePath": "tables/workflowFunctions.json",
+    "savePath": "models/workflowFunctions",
+    "isModel": true,
+    "modelKey": "workflowFunctions"
+  },
+  {
+    "filePath": "tables/workflowFunctions/-N1iSKDejWz9FQ8xFX40.js",
+    "savePath": "models/workflowFunctions/-N1iSKDejWz9FQ8xFX40/function",
+    "isWorkflowFunction": true
+  },
+  {
+    "filePath": "tables/workflows.json",
+    "savePath": "models/workflows",
+    "isModel": true,
+    "modelKey": "workflows"
+  },
+  {
+    "filePath": "subPages/-N3JOy39-lgn3Vrma9E6/-N3JP-vGN3uaeMCTOSKX.json",
+    "savePath": "subTabs/-N3JOy39-lgn3Vrma9E6/-N3JP-vGN3uaeMCTOSKX"
+  },
+  {
+    "filePath": "subPages/-N3JOy39-lgn3Vrma9E6/-N3JP2KZ5dVNbmoVLnfy.json",
+    "savePath": "subTabs/-N3JOy39-lgn3Vrma9E6/-N3JP2KZ5dVNbmoVLnfy"
+  },
+  {
+    "filePath": "pages/-N1hn_gVUe58sHF6s8Of.json",
+    "savePath": "tabs/-N1hn_gVUe58sHF6s8Of"
+  },
+  {
+    "filePath": "pages/-N1iPh69h7RMRv7N7xcN.json",
+    "savePath": "tabs/-N1iPh69h7RMRv7N7xcN"
+  },
+  {
+    "filePath": "pages/-N1iTFkqJGOqEkQzCOs9.json",
+    "savePath": "tabs/-N1iTFkqJGOqEkQzCOs9"
+  },
+  {
+    "filePath": "pages/-N3JOy39-lgn3Vrma9E6.json",
+    "savePath": "tabs/-N3JOy39-lgn3Vrma9E6"
+  },
+  {
+    "filePath": "widgets/-N1hoGKQeug9fx_uPhc2/widget.json",
+    "savePath": "widgets/-N1hoGKQeug9fx_uPhc2"
+  },
+  {
+    "filePath": "widgets/-N1hoGKQeug9fx_uPhc2/template.html",
+    "savePath": "widgets/-N1hoGKQeug9fx_uPhc2/template"
+  },
+  {
+    "filePath": "widgets/-N1iQEuNyBeHrfBdW3mW/widget.json",
+    "savePath": "widgets/-N1iQEuNyBeHrfBdW3mW"
+  },
+  {
+    "filePath": "widgets/-N1iTHiYUckxWqXXEiHV/widget.json",
+    "savePath": "widgets/-N1iTHiYUckxWqXXEiHV"
+  },
+  {
+    "filePath": "widgets/-N1iTHiYUckxWqXXEiHV/template.html",
+    "savePath": "widgets/-N1iTHiYUckxWqXXEiHV/template"
+  },
+  {
+    "filePath": "widgets/-N3zT08VTYmL6K4NqheE/widget.json",
+    "savePath": "widgets/-N3zT08VTYmL6K4NqheE"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Workflow 1/Script Task (node1652183468956).js",
+    "savePath": "workflow/-N1hninaxGuyLAT2XS6w",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-N1hninaxGuyLAT2XS6w",
+    "workflowFile": "workflow/Workflow 1 (-N1hninaxGuyLAT2XS6w).json",
+    "nodeId": "node1652183468956"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Workflow 1/Script Task (node1652183470590).js",
+    "savePath": "workflow/-N1hninaxGuyLAT2XS6w",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-N1hninaxGuyLAT2XS6w",
+    "workflowFile": "workflow/Workflow 1 (-N1hninaxGuyLAT2XS6w).json",
+    "nodeId": "node1652183470590"
+  },
+  {
+    "filePath": "workflow/Workflow 1 (-N1hninaxGuyLAT2XS6w).json",
+    "savePath": "workflow/-N1hninaxGuyLAT2XS6w",
+    "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Workflow 2/Script Task (node1652194639435).js",
+    "savePath": "workflow/-N1iTKI7CCRSWy5Qc-GM",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-N1iTKI7CCRSWy5Qc-GM",
+    "workflowFile": "workflow/Workflow 2 (-N1iTKI7CCRSWy5Qc-GM).json",
+    "nodeId": "node1652194639435"
+  },
+  {
+    "filePath": "workflow/Workflow 2 (-N1iTKI7CCRSWy5Qc-GM).json",
+    "savePath": "workflow/-N1iTKI7CCRSWy5Qc-GM",
+    "conversion": "workflow"
+  }
+]

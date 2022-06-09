@@ -1,0 +1,1 @@
+context.data = { test: func1('123') }

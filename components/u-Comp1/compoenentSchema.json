@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "prop1": {
+      "type": "string",
+      "label": "Prop 1"
+    },
+    "prop2": {
+      "type": "string",
+      "label": "Prop 2"
+    }
+  }
+}

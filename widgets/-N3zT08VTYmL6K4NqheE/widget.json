@@ -1,0 +1,16 @@
+{
+  "component": "-N3zSzUvwgqLmhYiVoT-",
+  "gsOptions": {
+    "h": 6,
+    "w": 12,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "props": {
+    "prop1": "test 123",
+    "prop2": "test 321"
+  },
+  "tab": "-N3JOy39-lgn3Vrma9E6",
+  "type": "custom"
+}

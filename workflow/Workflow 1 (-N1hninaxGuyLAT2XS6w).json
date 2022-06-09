@@ -1,0 +1,127 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-N1hninaxGuyLAT2XS6w",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1652183467387",
+        "x": 434.2857142857142,
+        "y": 170.42857578822543,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1652183468956",
+        "x": 435.28,
+        "y": 300.43,
+        "width": 190,
+        "height": 64,
+        "attachment": {
+          "script": "console.log('script 1')"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1652183470590",
+        "x": 433.57,
+        "y": 447.58,
+        "width": 190,
+        "height": 64,
+        "attachment": {
+          "script": "console.log($getGrid('pages'))\r\r\n\r\r\nconsole.log('script 2')"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1652183475312",
+        "x": 432.86,
+        "y": 591.86,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1652183467387-bottom",
+        "target": "node1652183468956",
+        "endSocket": "top",
+        "id": "line-1652183495756",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1652183468956-bottom",
+        "target": "node1652183470590",
+        "endSocket": "top",
+        "id": "line-1652183501951",
+        "label": "Script Task",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1652183470590-bottom",
+        "target": "node1652183475312",
+        "endSocket": "top",
+        "id": "line-1652183509143",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -34.00165423907017,
+      "y": 20.460228348358115,
+      "scale": 0.7000000000000002
+    }
+  },
+  "name": "Workflow 1"
+}
