@@ -1,0 +1,213 @@
+{
+  "models": [
+    {
+      "filePath": "tables/grid1.json",
+      "savePath": "models/grid1",
+      "isModel": true,
+      "modelKey": "grid1"
+    },
+    {
+      "filePath": "tables/pages.json",
+      "savePath": "models/pages",
+      "isModel": true,
+      "modelKey": "pages"
+    },
+    {
+      "filePath": "tables/roles.json",
+      "savePath": "models/roles",
+      "isModel": true,
+      "modelKey": "roles"
+    },
+    {
+      "filePath": "tables/tables.json",
+      "savePath": "models/tables",
+      "isModel": true,
+      "modelKey": "tables"
+    },
+    {
+      "filePath": "tables/workflowFunctions.json",
+      "savePath": "models/workflowFunctions",
+      "isModel": true,
+      "modelKey": "workflowFunctions"
+    },
+    {
+      "filePath": "tables/workflowFunctions/foo(-NSudCkSdy2bGyFfTx-Q).js",
+      "savePath": "models/workflowFunctions/-NSudCkSdy2bGyFfTx-Q/function",
+      "isWorkflowFunction": true
+    },
+    {
+      "filePath": "tables/workflowFunctions/bar(-NSyW3_nYx9FBcc8sEOr).js",
+      "savePath": "models/workflowFunctions/-NSyW3_nYx9FBcc8sEOr/function",
+      "isWorkflowFunction": true
+    },
+    {
+      "filePath": "tables/workflows.json",
+      "savePath": "models/workflows",
+      "isModel": true,
+      "modelKey": "workflows"
+    }
+  ],
+  "components": [
+    {
+      "filePath": "components/u-Login/index.json",
+      "savePath": "components/-NMThvDehVXv5HcZHWOG"
+    },
+    {
+      "filePath": "components/u-Login/compoenentCode.vue",
+      "savePath": "components/-NMThvDehVXv5HcZHWOG/code"
+    },
+    {
+      "filePath": "components/u-pageAsComponent/index.json",
+      "savePath": "components/-NNvX4C1DD9ijf9VUDbo"
+    },
+    {
+      "filePath": "components/u-pageAsComponent/compoenentCode.vue",
+      "savePath": "components/-NNvX4C1DD9ijf9VUDbo/code"
+    }
+  ],
+  "tabs": [
+    {
+      "filePath": "pages/-N7u8LvmRAy1ZLz-V5Ko.json",
+      "savePath": "tabs/-N7u8LvmRAy1ZLz-V5Ko"
+    },
+    {
+      "filePath": "pages/-NMTTRNkVgTzoT_j7TDg.json",
+      "savePath": "tabs/-NMTTRNkVgTzoT_j7TDg"
+    },
+    {
+      "filePath": "pages/-NNvWxrbat0PB9TkpqiN.json",
+      "savePath": "tabs/-NNvWxrbat0PB9TkpqiN"
+    },
+    {
+      "filePath": "pages/-NQYskwtIkA_the4cqxp.json",
+      "savePath": "tabs/-NQYskwtIkA_the4cqxp"
+    }
+  ],
+  "widgets": [
+    {
+      "filePath": "widgets/-NMTU383AMwO7Bgu11GZ/widget.json",
+      "savePath": "widgets/-NMTU383AMwO7Bgu11GZ"
+    },
+    {
+      "filePath": "widgets/-NMTU383AMwO7Bgu11GZ/template.html",
+      "savePath": "widgets/-NMTU383AMwO7Bgu11GZ/template"
+    },
+    {
+      "filePath": "widgets/-NMThwcNe833zfh2xwSJ/widget.json",
+      "savePath": "widgets/-NMThwcNe833zfh2xwSJ"
+    },
+    {
+      "filePath": "widgets/-NQYskye_EB3VYLY6SD_/widget.json",
+      "savePath": "widgets/-NQYskye_EB3VYLY6SD_"
+    }
+  ],
+  "widgetsComputed": [
+    {
+      "filePath": "widgetsComputed/comp1.js",
+      "savePath": "widgetsComputed/comp1"
+    }
+  ],
+  "widgetsData": [
+    {
+      "filePath": "widgetsData/dataGrid/grid1.json",
+      "savePath": "widgetsData/dataGrid/grid1",
+      "conversion": "dataGrid"
+    },
+    {
+      "filePath": "widgetsData/dataGrid/tables.json",
+      "savePath": "widgetsData/dataGrid/tables",
+      "conversion": "dataGrid"
+    },
+    {
+      "filePath": "widgetsData/dataGrid/users.json",
+      "savePath": "widgetsData/dataGrid/users",
+      "conversion": "dataGrid"
+    }
+  ],
+  "workflow": [
+    {
+      "filePath": "workflow/scriptTasks/Invite User/Script Task (node1675269363757).js",
+      "savePath": "workflow/-NNCpJhbPvc4ugMfuEzL",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NNCpJhbPvc4ugMfuEzL",
+      "workflowFile": "workflow/Invite User (-NNCpJhbPvc4ugMfuEzL).json",
+      "nodeId": "node1675269363757"
+    },
+    {
+      "filePath": "workflow/Invite User (-NNCpJhbPvc4ugMfuEzL).json",
+      "savePath": "workflow/-NNCpJhbPvc4ugMfuEzL",
+      "conversion": "workflow"
+    },
+    {
+      "filePath": "workflow/scriptTasks/Simple Workflow Script/Script Task (node1675351188810).js",
+      "savePath": "workflow/-NNHhX0eGNatv9dAw7Y8",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NNHhX0eGNatv9dAw7Y8",
+      "workflowFile": "workflow/Simple Workflow Script (-NNHhX0eGNatv9dAw7Y8).json",
+      "nodeId": "node1675351188810"
+    },
+    {
+      "filePath": "workflow/Simple Workflow Script (-NNHhX0eGNatv9dAw7Y8).json",
+      "savePath": "workflow/-NNHhX0eGNatv9dAw7Y8",
+      "conversion": "workflow"
+    },
+    {
+      "filePath": "workflow/scriptTasks/Timeout/Script Task (node1680165098003).js",
+      "savePath": "workflow/-NRld98fZANOnEwsT-HD",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NRld98fZANOnEwsT-HD",
+      "workflowFile": "workflow/Timeout (-NRld98fZANOnEwsT-HD).json",
+      "nodeId": "node1680165098003"
+    },
+    {
+      "filePath": "workflow/Timeout (-NRld98fZANOnEwsT-HD).json",
+      "savePath": "workflow/-NRld98fZANOnEwsT-HD",
+      "conversion": "workflow"
+    },
+    {
+      "filePath": "workflow/scriptTasks/Workflow 1/Script Task (node1681468928784).js",
+      "savePath": "workflow/-NSzLl0o3xQWM5-fC5fl",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NSzLl0o3xQWM5-fC5fl",
+      "workflowFile": "workflow/Workflow 1 (-NSzLl0o3xQWM5-fC5fl).json",
+      "nodeId": "node1681468928784"
+    },
+    {
+      "filePath": "workflow/Workflow 1 (-NSzLl0o3xQWM5-fC5fl).json",
+      "savePath": "workflow/-NSzLl0o3xQWM5-fC5fl",
+      "conversion": "workflow"
+    },
+    {
+      "filePath": "workflow/scriptTasks/Dynamic Workflow/Script Task (node1683111654267).js",
+      "savePath": "workflow/-NUWGFnMR8tu2C1nd-Ia",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NUWGFnMR8tu2C1nd-Ia",
+      "workflowFile": "workflow/Dynamic Workflow (-NUWGFnMR8tu2C1nd-Ia).json",
+      "nodeId": "node1683111654267"
+    },
+    {
+      "filePath": "workflow/Dynamic Workflow (-NUWGFnMR8tu2C1nd-Ia).json",
+      "savePath": "workflow/-NUWGFnMR8tu2C1nd-Ia",
+      "conversion": "workflow"
+    },
+    {
+      "filePath": "workflow/scriptTasks/Static Workflow/Script Task (node1683111654267).js",
+      "savePath": "workflow/-NUWGMrP-_X42I609fQe",
+      "isWorkflowScriptTask": true,
+      "workflowId": "-NUWGMrP-_X42I609fQe",
+      "workflowFile": "workflow/Static Workflow (-NUWGMrP-_X42I609fQe).json",
+      "nodeId": "node1683111654267"
+    },
+    {
+      "filePath": "workflow/Static Workflow (-NUWGMrP-_X42I609fQe).json",
+      "savePath": "workflow/-NUWGMrP-_X42I609fQe",
+      "conversion": "workflow"
+    }
+  ],
+  "settings": [
+    {
+      "filePath": "settings.json",
+      "savePath": "settings"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NSzLl0o3xQWM5-fC5fl",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1681468927809",
+        "x": 298.57,
+        "y": 256.15,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1681468928784",
+        "x": 114.2857142857143,
+        "y": 406.14955357142856,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1681468930934",
+        "x": 430,
+        "y": 406.15,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1681468927809-bottom",
+        "target": "node1681468928784",
+        "endSocket": "right",
+        "id": "line-1681468939141",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1681468928784-bottom",
+        "target": "node1681468930934",
+        "endSocket": "right",
+        "id": "line-1681468943461",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "logLevels": [
+    "info"
+  ],
+  "name": "Workflow 1",
+  "rootEndpoint": "/workflow/test/1",
+  "scheduled": false
+}

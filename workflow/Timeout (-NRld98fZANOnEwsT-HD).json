@@ -1,0 +1,94 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NRld98fZANOnEwsT-HD",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1680165090379",
+        "x": 122.85714285714289,
+        "y": 196.14955357142858,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1680165098003",
+        "x": 419.07,
+        "y": 196.15,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1680165110025",
+        "x": 724.45,
+        "y": 195.87,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1680165090379-right",
+        "target": "node1680165098003",
+        "endSocket": "left",
+        "id": "line-1680165104874",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1680165098003-right",
+        "target": "node1680165110025",
+        "endSocket": "left",
+        "id": "line-1680165120748",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -11.23688996319214,
+      "y": -23.184984137331043,
+      "scale": 0.5179611124037365
+    }
+  },
+  "name": "Timeout",
+  "rootEndpoint": "/timeout/test"
+}

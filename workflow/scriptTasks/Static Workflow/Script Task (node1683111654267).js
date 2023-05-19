@@ -1,0 +1,3 @@
+context.data = {
+    static: true,
+}

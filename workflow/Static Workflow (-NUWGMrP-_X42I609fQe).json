@@ -1,0 +1,90 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NUWGMrP-_X42I609fQe",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1683111654267",
+        "x": 133.43,
+        "y": 239.01,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1683112202084",
+        "x": 133,
+        "y": 97.57,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1683112206434",
+        "x": 133.28,
+        "y": 376.15,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1683111654267-bottom",
+        "target": "node1683112206434",
+        "endSocket": "top",
+        "id": "line-1683112211889",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1683112202084-bottom",
+        "target": "node1683111654267",
+        "endSocket": "top",
+        "id": "line-1683112214480",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Static Workflow",
+  "rootEndpoint": "/static-endpoint",
+  "scheduled": false
+}

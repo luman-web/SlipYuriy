@@ -1,0 +1,35 @@
+{
+  "-NMTTRPLqFbB-WkmCGJq": {
+    "_id": 2,
+    "lastEditDate": 1677251319682,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Guest",
+    "rowKey": "-NMTTRPLqFbB-WkmCGJq",
+    "slug": "guest",
+    "tabKey": "-NMTTRNkVgTzoT_j7TDg"
+  },
+  "-NMTTVxX_p8ZoFBGOloz": {
+    "_id": 1,
+    "lastEditDate": 1677251314836,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Authorized",
+    "rowKey": "-NMTTVxX_p8ZoFBGOloz",
+    "slug": "authorized",
+    "tabKey": "-N7u8LvmRAy1ZLz-V5Ko"
+  },
+  "-NNvWxtDgcSjBqm-kzFu": {
+    "_id": 3,
+    "name": "Page As Component",
+    "rowKey": "-NNvWxtDgcSjBqm-kzFu",
+    "tabKey": "-NNvWxrbat0PB9TkpqiN"
+  },
+  "-NQYskyUhaLlv8y8v9SD": {
+    "_id": 4,
+    "lastEditDate": 1678860560994,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Grid 1",
+    "rowKey": "-NQYskyUhaLlv8y8v9SD",
+    "slug": "grid1",
+    "tabKey": "-NQYskwtIkA_the4cqxp"
+  }
+}
